@@ -1,0 +1,158 @@
+@import url('./variable.css');
+
+
+/* instructions-page */
+.instructions-page {
+    position: relative;
+}
+
+.instructions-page .row-1 {
+    position: fixed;
+    top: 0px;
+    width: 83.33333333%;
+}
+
+.instructions-page .row-3 {
+    position: fixed;
+    bottom: 0px;
+    width: 83.33333333%;
+}
+
+.instructions-page .row-2 {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.instructions-page .right {
+    position: fixed;
+    right: 0px;
+    height: 100vh;
+}
+
+/* instructions-page */
+
+/* exam */
+.exam {
+    position: relative;
+}
+
+.exam .left {
+    width: 78%;
+}
+
+.exam .right {
+    width: 22%;
+}
+
+.exam .row-3 {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.exam .left .row-2 {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.exam .all-questions ul {
+    height: 190px;
+    overflow: auto;
+}
+
+.exam .row-2 .right {
+    position: fixed;
+    right: 0px;
+    height: 100vh;
+}
+
+.exam .row-3 .left {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+
+
+.instructions-modal {
+    height: 85vh;
+    overflow: auto;
+}
+
+.bg-1 {
+    background: url('../img/questions-sprite.png') no-repeat scroll 0 0 transparent;
+    height: 38px;
+    width: 34px;
+    line-height: 42px;
+}
+
+.not_visited {
+    background-position: -105px -49px;
+    color: #474747;
+}
+
+.not_answered {
+    background-position: -39px -48px;
+}
+
+.answered {
+    background-position: -5px -48px;
+}
+
+.review {
+    background-position: -72px -48px
+}
+
+.review_marked_considered {
+    background-position: -6px -81px;
+}
+
+.bg-2 {
+    background: url('../img/questions-sprite.png') no-repeat;
+    cursor: pointer;
+    height: 43px;
+    line-height: 42px;
+    margin-bottom: 10px;
+    margin-right: 2px;
+    width: 50px;
+}
+
+.not-visited-1 {
+    background-position: -157px -4px;
+    color: #474747;
+    height: 43px;
+    line-height: 43px;
+}
+
+.not-answered1 {
+    background-position: -57px -6px;
+    width: 49px;
+    height: 43px;
+    color: var(--white-color) !important;
+}
+
+.mark-for-review-1 {
+    background-position: -108px -1px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 3px;
+    color: var(--white-color) !important;
+}
+
+.answered1 {
+    background-position: -4px -5px;
+    color: var(--white-color) !important;
+}
+.mark-for-review-answer{
+    background-position: -66px -178px !important;
+    width: 49px;
+    height: 51px;
+    color: var(--white-color) !important;
+}
+
+/* exam */
+
+
+/* .paragraph-questions-text {
+    height: 300px;
+    overflow: auto;
+} */
+

@@ -1,0 +1,50 @@
+@media screen and (max-width:1400px) {}
+
+@media screen and (max-width:1200px) {}
+
+@media screen and (max-width:1024px) {}
+
+@media screen and (max-width:999px) {}
+
+@media screen and (max-width:991px) {
+    .exam .row-3 {
+        position: static;
+    }
+
+    .exam .left {
+        width: 100%;
+    }
+
+    .exam .row-3 .left {
+        border: 0px !important;
+    }
+
+    .exam .left .row-2 {
+        height: 100%;
+        overflow: visible;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .instructions-page .row-1 {
+        width: 100%;
+    }
+
+    .instructions-page .row-3 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:780px) {}
+
+@media screen and (max-width:600px) {}
+
+@media screen and (max-width:540px) {}
+
+@media screen and (max-width:420px) {}
+
+@media screen and (max-width:360px) {
+    .exam .row-3 .left button {
+        width: 100%;
+    }
+}

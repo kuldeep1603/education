@@ -1,0 +1,500 @@
+@media screen and (max-width:2500px) {
+    .upper-hedaer .pattern {
+        width: 64%;
+    }
+}
+
+@media screen and (max-width:2400px) {
+    .upper-hedaer .pattern {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    .upper-hedaer .pattern {
+        width: 72%;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    @media screen and (max-width:1600px) {
+        .upper-hedaer .pattern {
+            width: 74%;
+        }
+    }
+}
+
+@media screen and (max-width:1200px) {
+
+    /* columns 5  */
+    .column-5 {
+        width: 25%;
+    }
+
+    /* columns 5  */
+    /* Result  */
+    .Result .column-5 {
+        width: 25% !important;
+    }
+
+    /* Result  */
+    /* changes  */
+    /* event */
+    .events-img {
+        height: 150px !important;
+    }
+
+    /* event */
+
+    /* changes  */
+}
+
+@media screen and (max-width:1024px) {
+
+    /* columns 5  */
+    .column-5 {
+        width: 33%;
+    }
+
+    /* columns 5  */
+    /* Result  */
+    .Result .column-5 {
+        width: 33% !important;
+    }
+
+    /* Result  */
+    /* .course-details */
+    .course-details-banner .right {
+        right: 30px;
+    }
+
+    /* .course-details */
+
+
+}
+
+@media screen and (max-width:999px) {
+
+    /* blog  */
+    .blog-single-img {
+        height: 100%;
+    }
+
+    /* blog  */
+
+    /* course details  */
+    .course-details-banner .img-banner {
+        height : auto;
+        padding: 20px;
+    }
+
+    /* course details  */
+
+}
+
+@media screen and (max-width:991px) {
+
+    /* course details  */
+    .course-details-banner .right {
+        position: static;
+    }
+
+    /* course details  */
+    /* exam-notifications */
+    .exam-notifications .black-tabs .nav-item {
+        width: 32% !important;
+    }
+
+    /* exam-notifications */
+
+    /* .mega-content */
+    .dropdown-mega .dropdown-menu {
+        width: 100% !important;
+        left : 0px !important;
+    }
+
+    .mega-content .nav .nav-item {
+        width: 50%;
+    }
+
+    .dropdown-mega .dropdown-menu {
+        height: 100%;
+    }
+
+    /* .mega-content */
+    .footer {
+        padding: 100px 0px 40px 0px;
+    }
+
+    /* package-select */
+    .Choose-Session .tab-content .img-banner {
+        height: 180px;
+    }
+
+    /* package-select */
+    /* changes */
+    /* blog  */
+    .latest-blog {
+        width : 100%;
+        height: 100%;
+    }
+
+    .blog-list {
+        height  : 600px;
+        overflow: hidden;
+    }
+
+    /* blog  */
+    /* changes */
+
+}
+
+@media screen and (max-width:780px) {
+
+    /* columns 5  */
+    .column-5 {
+        width: 50%;
+    }
+
+    /* columns 5  */
+    /* Result  */
+    .Result .column-5 {
+        width: 50% !important;
+    }
+
+    /* Result  */
+
+
+    /* ======================== Home page ======================== */
+    /* banner heading */
+    .banner-heading {
+        font-size: 50px;
+    }
+
+    /* banner heading  */
+    /* mockups  */
+    .mockup .right img {
+        position: static;
+        width   : 100%;
+        padding : 0px;
+    }
+
+    /* mockups  */
+    /* ======================== Home page ======================== */
+
+    /* result-page  */
+    .Result iframe {
+        height: 100% !important;
+    }
+
+    /* result-page  */
+
+    /* .exam-notifications */
+    .exam-notifications .black-tabs .nav-item {
+        width: 48% !important;
+    }
+
+    /* .exam-notifications */
+    /* sideside-arrows  */
+    .sideside-arrows .owl-prev {
+        left    : -40px;
+        position: absolute;
+        top     : 30%;
+    }
+
+    .sideside-arrows .owl-next {
+        position: absolute;
+        right   : -40px;
+        top     : 30%;
+    }
+
+    /* sideside-arrows  */
+
+    /* course deatils package select  */
+    .package-select .Course-Details ul li {
+        width: 50%;
+    }
+
+    .package-select .Course-Details ul li a {
+        display: block;
+    }
+
+    /* section heading  */
+    .section-heading {
+        font-size  : 25px;
+        line-height: 30px;
+    }
+
+    /* section heading  */
+
+    /* gallery */
+    .gallery-img .tab-content img {
+        width : 100% !important;
+        height: auto !important;
+    }
+
+    /* gallery */
+
+
+}
+
+@media screen and (max-width:600px) {
+    /* ======================== Home page ======================== */
+
+    /* banner heading */
+    .banner-heading {
+        font-size: 40px;
+    }
+
+    /* banner heading  */
+    .banner-1 {
+        padding: 20px 20px;
+    }
+
+    /* banner height  */
+    .banner-1 {
+        height: 250px;
+    }
+
+    /* banner height  */
+
+    /* banner arrows  */
+    .banner .swiper-button-next,
+    .swiper-rtl .swiper-button-prev {
+        display: none;
+    }
+
+    .banner .banner .swiper-button-next.swiper-button-disabled,
+    .swiper-button-prev.swiper-button-disabled {
+        display: none;
+    }
+
+    /* banner arrows  */
+
+    /* Courses-Categories  */
+    .Courses-Categories .row-2 .colss-3 .card-body .card {
+        left: 0px;
+    }
+
+    /* Courses-Categories */
+    /* ======================== Home page ======================== */
+
+    /* course details  */
+    #course-Content .nav-item button {
+        padding: 10px 15px;
+    }
+
+    /* course details  */
+
+
+    /* .mega-content */
+
+    .mega-content .nav .nav-item {
+        width: 100%;
+    }
+
+    /* .mega-content */
+    /* sideside-arrows  */
+    .sideside-arrows .owl-nav {
+        position: absolute;
+        left    : 40px;
+    }
+
+    /* sideside-arrows  */
+
+    /* blog  */
+    .blog-category .img img {
+        height: auto;
+    }
+
+    /* blog  */
+
+    /* wishlist */
+    .wishlist .card img {
+        width     : 100%;
+        height    : 100%;
+        object-fit: cover;
+    }
+
+    /* wishlist */
+
+    /* home-contact */
+    .home-contact .right h3 {
+        font-size: 40px;
+    }
+
+    /* .event-details */
+    .events-2 .event-details img {
+        height: auto;
+    }
+
+    /* .event-details */
+    /* Recommendation-Course */
+    .Recommendation-Course .img-banner {
+        height: auto !important;
+    }
+
+    /* Recommendation-Course */
+    .gallery .carousel-inner .carousel-item img {
+        height: 100% !important;
+    }
+}
+
+@media screen and (max-width:540px) {
+
+    /* ======================== Home page ======================== */
+    .banner-heading {
+        font-size: 35px;
+    }
+
+    /* ======================== Home page ======================== */
+    /* result page  */
+    #result-video button {
+        left    : 0px !important;
+        position: static !important;
+    }
+
+    .result-small-banner p {
+        font-size: 23px !important;
+    }
+
+    /* result page  */
+    /* events  */
+    .black-tabs .nav-item {
+        width: 30% !important;
+    }
+
+    /* events  */
+    /* course deatils package select  */
+    .package-select .Course-Details ul li {
+        width: 100%;
+    }
+
+    .package-select .Course-Details ul li a {
+        display: block;
+    }
+
+    /* changes  */
+    .blog-list img {
+        height: auto;
+    }
+
+    /* changes  */
+}
+
+@media screen and (max-width:450px) {
+
+    /* Result */
+    .result-small-banner p {
+        font-size: 20px !important;
+    }
+
+    /* Result */
+    /* .exam-notifications */
+    .exam-notifications .black-tabs .nav-item {
+        width: 45% !important;
+    }
+
+    /* .exam-notifications */
+    /* Result page  */
+    .Result .column-5 .class-grade {
+        display: block;
+        width  : 100%;
+    }
+
+    /* Result page  */
+
+    /* home-contact */
+    .home-contact .right h3 {
+        font-size: 30px;
+    }
+
+    .home-contact {
+        padding: 60px 10px;
+    }
+
+    /* result page  */
+    .result-video img {
+        height: 200px;
+    }
+
+    /* result page  */
+}
+
+@media screen and (max-width:420px) {
+
+    /* ======================== Home page ======================== */
+    .banner-heading {
+        font-size: 30px;
+    }
+
+    /* ======================== Home page ======================== */
+    /* wishlist  */
+    .empty-wishlist img {
+        height: 100%;
+    }
+
+    /* wishlist  */
+}
+
+@media screen and (max-width:360px) {
+
+    /* ======================== Home page ======================== */
+    .banner-heading {
+        font-size: 25px;
+    }
+
+    /* columns 5  */
+    .column-5 {
+        width: 100%;
+    }
+
+    /* columns 5  */
+    /* Result  */
+    .Result .column-5 {
+        width: 50% !important;
+    }
+
+    /* Result  */
+    /* events  */
+    .black-tabs .nav-item {
+        width: 45% !important;
+    }
+
+    /* events  */
+    /* ======================== Home page ======================== */
+
+    /* changes  */
+    /* event */
+    .events-img {
+        height: 100% !important;
+    }
+
+    /* event */
+
+    /* changes  */
+}
+
+@media screen and (max-width:340px) {
+
+    /* .exam-notifications */
+    .exam-notifications .black-tabs .nav-item {
+        width: 100% !important;
+    }
+
+    /* .exam-notifications */
+    /* Result  */
+    .Result .column-5 {
+        width: 100% !important;
+    }
+
+    /* Result  */
+    /* Result page  */
+    .Result .column-5 .class-grade {
+        display: block;
+        width  : 50%;
+    }
+
+    /* Result page  */
+
+}

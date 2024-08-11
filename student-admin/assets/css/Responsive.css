@@ -1,0 +1,47 @@
+@media screen and (max-width:1400px) {}
+
+@media screen and (max-width:1200px) {
+    .person-details .light-primary-tabs .nav .nav-link {
+        width: 32%;
+    }
+}
+
+@media screen and (max-width:1000px) {}
+
+@media screen and (max-width:992px) {
+    .container-p-y:not([class^=pb-]):not([class*=" pb-"]) {
+        padding-bottom: 8.625rem !important;
+    }
+}
+
+@media screen and (max-width:800px) {}
+
+@media screen and (max-width:600px) {
+    .person-details .light-primary-tabs .nav .nav-link {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .person-details .light-primary-tabs .nav .nav-link {
+        width: 100%;
+    }
+
+    /* Mock-Test */
+    .Mock-Test .black-tabs .nav-item {
+        width: 42% !important;
+    }
+
+    /* Mock-Test */
+    .forum .forum-questions-answer-video {
+        height: 100% !important;
+    }
+
+
+}
+
+@media screen and (min-width: 400px) {
+    .doubt_tabs {
+        width: 100px !important;
+    }
+}

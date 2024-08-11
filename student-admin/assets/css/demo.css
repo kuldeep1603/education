@@ -1,0 +1,359 @@
+/*
+* demo.css
+* File include item demo only specific css only
+******************************************************************************/
+@import url('./variable.css');
+
+.menu .app-brand.demo {
+  height: 64px;
+  margin-top: 12px;
+}
+
+.app-brand-logo.demo svg {
+  width: 22px;
+  height: 38px;
+}
+
+.app-brand-text.demo {
+  font-size: 1.75rem;
+  letter-spacing: -0.5px;
+  text-transform: lowercase;
+}
+
+/* ! For .layout-navbar-fixed added fix padding top to .layout-page */
+/* Detached navbar */
+.layout-navbar-fixed .layout-wrapper:not(.layout-horizontal):not(.layout-without-menu) .layout-page {
+  padding-top: 76px !important;
+}
+
+/* Default navbar */
+.layout-navbar-fixed .layout-wrapper:not(.layout-without-menu) .layout-page {
+  padding-top: 64px !important;
+}
+
+.docs-page .layout-navbar-fixed.layout-wrapper:not(.layout-without-menu) .layout-page,
+.docs-page .layout-menu-fixed.layout-wrapper:not(.layout-without-menu) .layout-page {
+  padding-top: 62px !important;
+}
+
+/* Navbar page z-index issue solution */
+.content-wrapper .navbar {
+  z-index: auto;
+}
+
+/*
+* Content
+******************************************************************************/
+
+.demo-blocks>* {
+  display: block !important;
+}
+
+.demo-inline-spacing>* {
+  margin: 1rem 0.375rem 0 0 !important;
+}
+
+/* ? .demo-vertical-spacing class is used to have vertical margins between elements. To remove margin-top from the first-child, use .demo-only-element class with .demo-vertical-spacing class. For example, we have used this class in forms-input-groups.html file. */
+.demo-vertical-spacing>* {
+  margin-top: 1rem !important;
+  margin-bottom: 0 !important;
+}
+
+.demo-vertical-spacing.demo-only-element> :first-child {
+  margin-top: 0 !important;
+}
+
+.demo-vertical-spacing-lg>* {
+  margin-top: 1.875rem !important;
+  margin-bottom: 0 !important;
+}
+
+.demo-vertical-spacing-lg.demo-only-element> :first-child {
+  margin-top: 0 !important;
+}
+
+.demo-vertical-spacing-xl>* {
+  margin-top: 5rem !important;
+  margin-bottom: 0 !important;
+}
+
+.demo-vertical-spacing-xl.demo-only-element> :first-child {
+  margin-top: 0 !important;
+}
+
+.rtl-only {
+  display: none !important;
+  text-align: left !important;
+  direction: ltr !important;
+}
+
+[dir='rtl'] .rtl-only {
+  display: block !important;
+}
+
+/* Dropdown buttons going out of small screens */
+@media (max-width: 576px) {
+  #dropdown-variation-demo .btn-group .text-truncate {
+    width: 231px;
+    position: relative;
+  }
+
+  #dropdown-variation-demo .btn-group .text-truncate::after {
+    position: absolute;
+    top: 45%;
+    right: 0.65rem;
+  }
+}
+
+/*
+* Layout demo
+******************************************************************************/
+
+.layout-demo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.layout-demo-placeholder img {
+  width: 900px;
+}
+
+.layout-demo-info {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+
+
+/* changes  */
+
+.bg-menu-theme .menu-inner>.menu-item.active>.menu-link {
+  background-color: #F2F8E7 !important;
+  color: #3B4758 !important;
+}
+
+.bg-menu-theme .menu-inner>.menu-item.active:before {
+  background-color: var(--white-color) !important;
+}
+
+/* changes */
+
+/* purple-tabs */
+.purple-tabs .nav-item .nav-link {
+  background: transparent !important;
+  color: #969696 !important;
+}
+
+.purple-tabs .nav-item .nav-link.active {
+  color: var(--purple-color) !important;
+  border-bottom: 4px solid var(--purple-color);
+  font-weight: 600;
+}
+
+/* purple-tabs */
+.card {
+  box-shadow: none !important;
+}
+
+a.bg-primary:hover,
+a.bg-primary:focus {
+  background-color: var(--primary-color) !important;
+}
+
+.admin .progress {
+  height: 0.40rem !important;
+}
+
+.progress-bar {
+  box-shadow: none;
+}
+
+
+/* admin1 */
+.admin1 .left .card .accordion .accordion-item.active {
+  box-shadow: none !important;
+}
+
+.admin1 .left .card .accordion-button:not(.collapsed) {
+  background: var(--light-card);
+}
+
+.admin1 .left .card .accordion-button::after {
+  background-image: url('../img/New/down-arrow.png') !important;
+  margin-right: 10px !important;
+}
+
+/* admin1 */
+
+/* quiz */
+.quiz .owl-carousel ul li .card {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.quiz .owl-dots {
+  display: none;
+}
+
+.quiz .owl-prev span {
+  padding: 10px 4px !important;
+  border: 2px solid #000 !important;
+}
+
+.quiz .owl-next span {
+  padding: 10px 4px !important;
+  border: 2px solid #000 !important;
+}
+
+.quiz .owl-prev {
+  position: absolute;
+  top: 45%;
+  margin: 0px !important;
+  left: 0px;
+  border-radius: 0px !important;
+}
+
+.quiz .owl-next {
+  position: absolute;
+  top: 45%;
+  right: 0px;
+  margin: 0px !important;
+  border-radius: 0px !important;
+}
+
+.quiz .owl-theme .owl-nav [class*=owl-]:hover {
+  background-color: var(--white-color);
+  color: #000;
+}
+
+/* quiz */
+/* forum */
+.forum .black-tabs .nav-item .nav-link {
+  margin: 0px !important;
+}
+
+.forum .black-tabs .nav-item .nav-link.active {
+  background: linear-gradient(rgba(72, 78, 86, 1), rgba(59, 64, 72, 1)) !important;
+}
+
+/* forum */
+
+/* person-details */
+.person-details #Order-History .black-tabs .nav-item {
+  width: 33.33333%;
+}
+
+.person-details #Order-History .black-tabs .nav-item button {
+  margin: 0px !important;
+}
+
+.person-details .light-primary-tabs .nav .nav-link {
+  width: 100%;
+}
+
+/* person-details */
+
+/* Mock-Test */
+.Mock-Test .black-tabs .nav-item {
+  width: 23% !important;
+}
+
+/* Mock-Test */
+
+
+
+
+.profile-pic {
+  width: 90%;
+  max-height: 200px;
+  display: inline-block;
+
+}
+
+.file-upload {
+  display: none;
+}
+
+.circle {
+  border-radius: 100% !important;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  border: 5px solid rgba(140, 181, 63, 0.5);
+  background-color: rgba(247, 247, 247, 1);
+}
+
+
+.p-image {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+}
+
+.p-image:hover {
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+
+.upload-button:hover {
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+  color: #999;
+}
+
+#course-Content .Mock-Test .card {
+  background-color: #e1f7e3;
+}
+
+#course-Content .accordion-item {
+  border: 2px solid rgba(10, 61, 108, 0.2) !important;
+  border-radius: 8px;
+}
+
+#course-Content .accordion-item button {
+  padding: 20px 25px;
+}
+
+#course-Content .accordion-body {
+  padding: 0px 25px 15px 25px;
+}
+
+#course-Content .accordion-button::after {
+  background-image: url("../img/arrow-down.png") !important;
+}
+
+#course-Content .verbal .nav-item a.active {
+  background-color: #9b9b9b;
+  color: var(--white-color);
+  padding: 8px 20px;
+}
+
+#course-Content .verbal .nav-item a {
+  color: #7c828f;
+  font-weight: 500;
+}
+
+#course-Content .verbal .accordion-item {
+  border: 0px !important;
+}
+
+#course-Content .verbal .accordion-item button {
+  background-color: #f7f9fa;
+}
+
+.course-overview .accordion-button::after {
+  display: none;
+}
+
+/* layout-navbar  */
+.layout-navbar .input-group span {
+  background-color: var(--light-card) !important;
+}
+
+/* layout-navbar  */
